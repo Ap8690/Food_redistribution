@@ -1,0 +1,178 @@
+.bg-grey{
+    background-color: rgb(221, 221, 221);
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.color-white{
+    color: white;
+}
+
+.height-50{
+    height: 50px;
+}
+
+.margin-t-10{
+    margin-top: 10px;
+}
+
+.margin-b-0{
+    margin-bottom: 0%;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 50%;
+}
+
+.flex-row-revers{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 50%;
+}
+
+.padding{
+    padding: 10px;
+}
+
+.max-width-50{
+    max-width: 50%;
+}
+
+.list-style-none{
+    list-style-type: none;
+}
+
+.float-left{
+    float: left;
+    width: 15%;
+}
+.float-right{
+    float: right;
+    width: 15%;
+}
+.width-50per{
+    width: 50%;
+}
+
+.margin-l-50per{
+    margin-left: 50%;
+}
+
+.border-cadetblue{
+    border: cadetblue;
+}
+
+.width-600{
+    width: 600px;
+}
+
+.height-500{
+    height: 500px;
+}
+
+.flex-fluid {
+    flex-direction: row !important;
+    align-items: inherit;
+  }
+
+.flex-fluid > *:nth-child(even) {
+    margin: 15px 0px;
+  }
+
+.flex-fluid > *:last-child {
+    margin-bottom: 0px;
+  }
+.margin-r-30{
+    margin-right: 30px;
+}
+
+.width-80per{
+    width: 80%;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.margin-l-r-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile.flex-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .mob-width{
+      width: 100%;
+      margin-right: 15px;
+    }
+    .mob.width-600{
+      width: 300px;
+    }
+    .position-relative{
+        right: 20%;
+    }
+    .sort{
+        height: 200px;
+    }
+}
+
+.width-90{
+    width: 50%;
+}
+
+.form{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 90%;
+    border-radius: 4px;
+    margin-top: 5%
+}
+
+.postion-fixed-b{
+    position: fixed;
+    bottom: 0;
+}
+.min-width-100per{
+    min-width: 100%;
+}
+
+.position-relative{
+    position: relative;
+    right: -25%;
+    top: 40px;
+    border-radius: 8px;
+}
+
+.bg-brown{
+    background-color: rgb(238, 232, 214);
+}
+
+.sort{
+    background-color: #b5babe;
+    height: auto;
+    margin-right: 10px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-left: -13%;
+    width: 150px;
+}
